@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Project Structure
+
+- ```public/``` public resuources like images, icons, css, fonts
+- ```src/assets/``` app resources such as: scss, themes, json.
+- ```src/components/```  custom components
+- ```src/context/```  page stateful logic which encapsulate reusable functions
+- ```src/hooks/```  app hooks comp
+- ```src/i18n/```  language translation files
+- ```src/layouts/```  app layout
+- ```src/pages/```  app page UI components and logic
+- ```src/App.js``` app main layout
+- ```src/index.js``` application entry point
+- ```src/.env``` app configurations
+
+
 ## Available Scripts
 
 In the project directory, you can run:
